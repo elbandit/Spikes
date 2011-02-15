@@ -1,5 +1,0 @@
-c:\Projects\Db40Spike\Db40Spike.Specs\bin\Debug\Db40Spike.Specs.dll
-c:\Projects\Db40Spike\Db40Spike.Specs\bin\Debug\Db40Spike.Specs.pdb
-c:\Projects\Db40Spike\Db40Spike.Specs\obj\Debug\ResolveAssemblyReference.cache
-c:\Projects\Db40Spike\Db40Spike.Specs\obj\Debug\Db40Spike.Specs.dll
-c:\Projects\Db40Spike\Db40Spike.Specs\obj\Debug\Db40Spike.Specs.pdb
