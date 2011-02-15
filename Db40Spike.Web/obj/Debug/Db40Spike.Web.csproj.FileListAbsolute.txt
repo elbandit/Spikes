@@ -1,0 +1,12 @@
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db40Spike.Web.dll
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db40Spike.Web.pdb
+c:\Projects\Db40Spike\Db40Spike.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\Db40Spike\Db40Spike.Web\obj\Debug\Db40Spike.Web.dll
+c:\Projects\Db40Spike\Db40Spike.Web\obj\Debug\Db40Spike.Web.pdb
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db40Spike.Domain.dll
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db40Spike.Infrastructure.dll
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db4objects.Db4o.dll
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db4objects.Db4o.Linq.dll
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db40Spike.Domain.pdb
+c:\Projects\Db40Spike\Db40Spike.Web\bin\Db40Spike.Infrastructure.pdb
+c:\Projects\Db40Spike\Db40Spike.Web\bin\StructureMap.dll
