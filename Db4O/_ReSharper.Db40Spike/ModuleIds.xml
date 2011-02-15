@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="73320B29-FB5A-47EE-8B33-75E87584BEE3" ModuleId="Db40Spike.Specs" />
+  <Module PersistentId="9470AFC5-2135-46D6-8D26-AE801389035A" ModuleId="Db40Spike.Domain" />
+  <Module PersistentId="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241" ModuleId="Db40Spike.Infrastructure" />
+  <Module PersistentId="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C" ModuleId="Db40Spike.Web" />
+</Modules>

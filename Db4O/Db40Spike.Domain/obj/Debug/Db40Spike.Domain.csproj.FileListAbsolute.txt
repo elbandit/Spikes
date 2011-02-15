@@ -1,0 +1,5 @@
+c:\Projects\Db40Spike\Db40Spike.Domain\bin\Debug\Db40Spike.Domain.dll
+c:\Projects\Db40Spike\Db40Spike.Domain\bin\Debug\Db40Spike.Domain.pdb
+c:\Projects\Db40Spike\Db40Spike.Domain\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\Db40Spike\Db40Spike.Domain\obj\Debug\Db40Spike.Domain.dll
+c:\Projects\Db40Spike\Db40Spike.Domain\obj\Debug\Db40Spike.Domain.pdb
