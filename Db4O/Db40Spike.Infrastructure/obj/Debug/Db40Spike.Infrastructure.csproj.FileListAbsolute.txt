@@ -7,3 +7,12 @@ c:\Projects\Db40Spike\Db40Spike.Infrastructure\bin\Debug\Db4objects.Db4o.Linq.dl
 c:\Projects\Db40Spike\Db40Spike.Infrastructure\bin\Debug\Db40Spike.Domain.pdb
 c:\Projects\Db40Spike\Db40Spike.Infrastructure\obj\Debug\Db40Spike.Infrastructure.dll
 c:\Projects\Db40Spike\Db40Spike.Infrastructure\obj\Debug\Db40Spike.Infrastructure.pdb
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\bin\Debug\Db40Spike.Infrastructure.dll
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\bin\Debug\Db40Spike.Infrastructure.pdb
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\bin\Debug\Db40Spike.Domain.dll
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\bin\Debug\Db4objects.Db4o.dll
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\bin\Debug\Db4objects.Db4o.Linq.dll
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\bin\Debug\Db40Spike.Domain.pdb
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\obj\Debug\Db40Spike.Infrastructure.dll
+C:\Projects\Db40Spike\Db4O\Db40Spike.Infrastructure\obj\Debug\Db40Spike.Infrastructure.pdb

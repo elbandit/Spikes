@@ -23,7 +23,6 @@ namespace Db40Spike.Infrastructure
         public IObjectContainer create()
         {
             return _server.OpenClient();
-        }  
-    
+        }     
     }
 }

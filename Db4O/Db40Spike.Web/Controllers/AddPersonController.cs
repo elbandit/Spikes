@@ -1,3 +1,4 @@
+using System;
 using System.Web.Mvc;
 using Db40Spike.Domain;
 using Db40Spike.Web.Models;
@@ -26,15 +27,22 @@ namespace Db40Spike.Web.Controllers
         [HttpPost]
         public ActionResult Create(CreatePersonViewModel create_person)
         {
-            using (var unit_of_work = _unit_of_work_factory.create())
+            if (ModelState.IsValid)
             {
                 var name = new Name(create_person.first_name, create_person.last_name);
-                var person_to_add = new Person(name);                
+                var person_to_add = new Person(name);
 
-                _person_repository.save(person_to_add);
-            }            
+                using (_unit_of_work_factory.create())
+                {                
+                    _person_repository.save(person_to_add);
+                }
 
-            return View(create_person);
+                TempData.Add("Message", String.Format("New person added '{0}'", person_to_add.name));
+
+                return RedirectToAction("Index", "DisplayAllPeople");
+            }
+            else
+                return View(create_person);                                        
         }
     }
 }

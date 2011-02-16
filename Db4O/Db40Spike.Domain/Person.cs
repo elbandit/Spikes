@@ -18,5 +18,10 @@ namespace Db40Spike.Domain
         }
 
         public Name name { get; private set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0}", name);
+        }
     }
 }

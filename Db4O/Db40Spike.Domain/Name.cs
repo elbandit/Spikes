@@ -10,5 +10,10 @@
 
         public string first_name { get; private set; }
         public string last_name { get; private set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", first_name, last_name);
+        }
     }
 }

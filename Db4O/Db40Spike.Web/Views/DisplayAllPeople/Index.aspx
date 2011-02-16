@@ -7,7 +7,15 @@
     <title></title>
 </head>
 <body>
-    <%:Html.DisplayForModel() %>
+    <h1><%:TempData["Message"] %></h1>
+    <p>
+    All my people right here, right now...
+    </p>
+    <ul>    
+    <% foreach(var person in Model) { %>        
+        <li><%:person.ToString() %> <%:Html.ActionLink("Edit?", "Edit", "EditPerson", new { id = person.id }, null)%></li>
+    <%  }%>
+    </ul>
 
     <%:Html.ActionLink("Add a Person", "Create", "AddPerson")%>
 </body>

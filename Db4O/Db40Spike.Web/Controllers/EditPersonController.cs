@@ -24,18 +24,39 @@ namespace Db40Spike.Web.Controllers
         {
             var person_to_edit = _person_repository.find_by(id);
 
-            return View(person_to_edit);
+            var edit_person_view_model = new EditPersonViewModel()
+                                             {
+                                                 first_name = person_to_edit.name.first_name,
+                                                 last_name = person_to_edit.name.last_name
+                                             };
+
+            return View(edit_person_view_model);
         }
 
+        [HttpPost]
         public ActionResult Edit(EditPersonViewModel person_that_has_changed)
         {
-            var person_to_edit = _person_repository.find_by(person_that_has_changed.id);
+            if (ModelState.IsValid)
+            {
+                var person_to_edit = _person_repository.find_by(person_that_has_changed.id);
 
-            var new_name = new Name(person_that_has_changed.first_name, person_that_has_changed.last_name);
+                var original_name = person_to_edit.name;
 
-            person_to_edit.change_name_to(new_name);
+                var new_name = new Name(person_that_has_changed.first_name, person_that_has_changed.last_name);
 
-            return View(person_to_edit);
+                person_to_edit.change_name_to(new_name);
+
+                using (_unit_of_work_factory.create())
+                {
+                    _person_repository.save(person_to_edit);
+                }
+                
+                TempData.Add("Message", String.Format("Name changed from '{0}' to '{1}'", original_name, person_to_edit.name));
+
+                return RedirectToAction("Index", "DisplayAllPeople");
+            }
+            else
+                return View(person_that_has_changed);
         }
     }
 }

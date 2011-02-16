@@ -11,7 +11,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Fields</legend>
+            <legend>Add a new person</legend>
                                                 
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.first_name) %>
@@ -34,6 +34,7 @@
             </p>
         </fieldset>
 
+        <div><%: Html.ActionLink("Back to list of people", "Index", "DisplayAllPeople") %></div>
     <% } %>
 </body>
 </html>
