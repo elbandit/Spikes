@@ -2,16 +2,14 @@
 
 namespace Db40Spike.Domain
 {
-    public class Person : IEntity
+    public class Person : DomainBase
     {
         public Person(Name name)
         {
             this.name = name;
             id = Guid.NewGuid();
         }
-
-        public Guid id { get; private set; }
-
+       
         public void change_name_to(Name new_name)
         {
             name = new_name;

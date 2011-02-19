@@ -11,24 +11,165 @@
       <Item value="interface" priority="0" />
       <Item value="IGameRepository`0" priority="1" />
       <Item value="int" priority="0" />
-      <Item value="public" priority="2" />
+      <Item value="public" priority="3" />
       <Item value="string" priority="1" />
       <Item value="prop" priority="0" />
-      <Item value="new" priority="0" />
+      <Item value="new" priority="3" />
+      <Item value="foreach" priority="0" />
+      <Item value="var" priority="2" />
+      <Item value="person" priority="3" />
+      <Item value="id" priority="0" />
+      <Item value="Html" priority="1" />
+      <Item value="object" priority="1" />
+      <Item value="RouteValueDictionary" priority="0" />
+      <Item value="Display" priority="0" />
+      <Item value="EditPersonViewModel`0" priority="0" />
+      <Item value="first_name" priority="0" />
+      <Item value="person_to_edit" priority="2" />
+      <Item value="last_name" priority="0" />
+      <Item value="if" priority="5" />
+      <Item value="ModelBinderAttribute`0" priority="1" />
+      <Item value="ModelState`0" priority="1" />
+      <Item value="RedirectToAction`0" priority="0" />
+      <Item value="TempData" priority="1" />
+      <Item value="String`0" priority="0" />
+      <Item value="original_name" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="IDb4OSession`0" priority="0" />
+      <Item value="asrt" priority="0" />
+      <Item value="private" priority="4" />
+      <Item value="return" priority="0" />
+      <Item value="db4o_session" priority="0" />
+      <Item value="LinkedList" priority="0" />
+      <Item value="static" priority="2" />
+      <Item value="IObjectContainerFactory`0" priority="1" />
+      <Item value="stub_an`1" priority="2" />
+      <Item value="IObjectContainer`0" priority="0" />
+      <Item value="IRepository" priority="0" />
+      <Item value="SUT" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Db40Spike.Infrastructure.DB4OServer">
       <Item value="Connect`0" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="EditorForModel`0" priority="0" />
+      <Item value="ActionLink`0" priority="1" />
+      <Item value="HiddenFor`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Domain.Person">
+      <Item value="ToString`0" priority="1" />
+      <Item value="id" priority="1" />
+      <Item value="name" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Web.Models.EditPersonViewModel">
+      <Item value="first_name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Domain.Name">
+      <Item value="first_name" priority="0" />
+      <Item value="last_name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="IsValid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.TempDataDictionary">
+      <Item value="Add`0" priority="0" />
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Domain.IRepository`1">
+      <Item value="save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Domain.IUnitOfWorkFactory">
+      <Item value="create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Infrastructure.IObjectContainerFactory">
+      <Item value="Stub`2" priority="1" />
+      <Item value="create`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="AssertWasCalled`1" priority="1" />
+      <Item value="Return`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Infrastructure.IDb4OSession">
+      <Item value="object_container_in_session" priority="1" />
+      <Item value="Stub`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db4objects.Db4o.IObjectContainer">
+      <Item value="Commit`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Db40Spike.Web.Controllers.AddPersonController">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OSession.cs" caret="259" fromTop="10" />
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IDb4OSession.cs" caret="260" fromTop="10" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:DisplayAllPeopleController.cs" caret="0" fromTop="0" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Views/d:AddPerson/f:Create.aspx" caret="462" fromTop="12" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Views/d:EditPerson/f:Edit.aspx" caret="1586" fromTop="3" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Models/f:EditPersonViewModel.cs" caret="470" fromTop="9" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Models/f:CreatePersonViewModel.cs" caret="280" fromTop="10" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Views/d:DisplayAllPeople/f:Index.aspx" caret="549" fromTop="14" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:EditPersonController.cs" caret="1997" fromTop="18" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IEntity.cs" caret="113" fromTop="8" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IRepository.cs" caret="262" fromTop="10" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IUnitOfWorkFactory.cs" caret="73" fromTop="3" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IUnitOfWork.cs" caret="102" fromTop="5" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:BootStrapper.cs" caret="310" fromTop="12" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IObjectContainerFactory.cs" caret="154" fromTop="7" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OUnitOfWork.cs" caret="260" fromTop="11" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Name.cs" caret="429" fromTop="14" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Person.cs" caret="487" fromTop="19" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4ORepository.cs" caret="400" fromTop="7" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OSession.cs" caret="131" fromTop="4" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IDb4OSession.cs" caret="124" fromTop="4" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OUnitOfWorkFactory.cs" caret="430" fromTop="16" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:ObjectContainerFactory.cs" caret="499" fromTop="15" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:AddPersonController.cs" caret="160" fromTop="2" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/f:base_spec.cs" caret="117" fromTop="5" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_DB4OSession_is_disposed.cs" caret="1270" fromTop="33" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_Db4OUnitOfWork_is_disposed.cs" caret="891" fromTop="18" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="797" fromTop="25" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="877" fromTop="17" />
     </RecentFiles>
     <RecentEdits>
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OSession.cs" caret="2885" fromTop="14" />
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OSession.cs" caret="2885" fromTop="96" />
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OSession.cs" caret="259" fromTop="10" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="299" fromTop="9" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="794" fromTop="24" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:ObjectContainerFactory.cs" caret="0" fromTop="0" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IDb4OSession.cs" caret="0" fromTop="0" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IEntity.cs" caret="13" fromTop="0" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4ORepository.cs" caret="47" fromTop="0" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:AddPersonController.cs" caret="1415" fromTop="20" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:AddPersonController.cs" caret="128" fromTop="0" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IUnitOfWork.cs" caret="99" fromTop="4" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:BootStrapper.cs" caret="650" fromTop="23" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="618" fromTop="19" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OUnitOfWork.cs" caret="411" fromTop="17" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_Db4OUnitOfWork_is_disposed.cs" caret="496" fromTop="15" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_Db4OUnitOfWork_is_disposed.cs" caret="753" fromTop="22" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_Db4OUnitOfWork_is_disposed.cs" caret="1034" fromTop="23" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_Db4OUnitOfWork_is_disposed.cs" caret="891" fromTop="16" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OSession.cs" caret="566" fromTop="19" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_DB4OSession_is_disposed.cs" caret="1277" fromTop="25" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_DB4OSession_is_disposed.cs" caret="433" fromTop="13" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_DB4OSession_is_disposed.cs" caret="1256" fromTop="33" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IDb4OSession.cs" caret="124" fromTop="4" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_DB4OSession_is_disposed.cs" caret="947" fromTop="6" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:ObjectContainerFactory.cs" caret="576" fromTop="15" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:AddPersonController.cs" caret="402" fromTop="8" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="450" fromTop="11" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="694" fromTop="18" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="650" fromTop="16" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="730" fromTop="21" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="470" fromTop="6" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="896" fromTop="19" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

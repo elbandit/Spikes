@@ -20,7 +20,9 @@ public class BootStrapper
         public RepositoryRegistry()
         {
             For<IRepository<Person>>().Use<Db4ORepository<Person>>();
-            For<IObjectContainerFactory>().Singleton().Use<ObjectContainerFactory>().Ctor<string>("container_path").Is(HttpContext.Current.Server.MapPath("~/App_Data/game_5.db4o"));
+            For<IObjectContainerFactory>().Singleton().Use<ObjectContainerFactory>()
+                 .Ctor<string>("container_path")
+                 .Is(HttpContext.Current.Server.MapPath("~/App_Data/people.db4o"));
 
             For<IDb4OSession>().HttpContextScoped().Use<Db4OSession>();
 

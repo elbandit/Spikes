@@ -19,3 +19,6 @@ C:\Projects\Db40Spike\Db4O\Db40Spike.Specs\bin\Debug\Db40Spike.Domain.pdb
 C:\Projects\Db40Spike\Db4O\Db40Spike.Specs\bin\Debug\Db40Spike.Infrastructure.pdb
 C:\Projects\Db40Spike\Db4O\Db40Spike.Specs\bin\Debug\Machine.Specifications.pdb
 C:\Projects\Db40Spike\Db4O\Db40Spike.Specs\bin\Debug\nunit.framework.xml
+C:\Projects\Db40Spike\Db4O\Db40Spike.Specs\bin\Debug\Db40Spike.Web.dll
+C:\Projects\Db40Spike\Db4O\Db40Spike.Specs\bin\Debug\StructureMap.dll
+C:\Projects\Db40Spike\Db4O\Db40Spike.Specs\bin\Debug\Db40Spike.Web.pdb

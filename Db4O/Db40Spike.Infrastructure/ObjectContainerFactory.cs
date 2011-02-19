@@ -1,7 +1,4 @@
-﻿using System;
-using System.Web;
-using Db4objects.Db4o;
-using System.IO;
+﻿using Db4objects.Db4o;
 
 namespace Db40Spike.Infrastructure 
 {

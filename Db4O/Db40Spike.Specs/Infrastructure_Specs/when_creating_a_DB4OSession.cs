@@ -13,12 +13,12 @@ namespace Db40Spike.Specs.Infrastructure_Specs
 
         Establish context = () =>
         {
-            object_container_factory = stub_an<IObjectContainerFactory>();            
+            object_container_factory = stub_an<IObjectContainerFactory>();
         };
 
         Because of = () => SUT = new Db4OSession(object_container_factory);
 
-        private It should_ask_the_object_factory_to_create_a_new_ObjectContainer = () =>
+        It should_ask_the_object_factory_to_create_a_new_ObjectContainer = () =>
         {
             object_container_factory.AssertWasCalled(x => x.create());
         };

@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomainBase.cs" />
     <Compile Include="IEntity.cs" />
     <Compile Include="Name.cs" />
     <Compile Include="Person.cs" />
