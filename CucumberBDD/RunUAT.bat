@@ -1,0 +1,1 @@
+rake rakefile.rb acceptance_tests

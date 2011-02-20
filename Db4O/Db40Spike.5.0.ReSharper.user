@@ -48,6 +48,10 @@
       <Item value="IObjectContainer`0" priority="0" />
       <Item value="IRepository" priority="0" />
       <Item value="SUT" priority="0" />
+      <Item value="IEntity`0" priority="0" />
+      <Item value="AppDomainSetup`0" priority="1" />
+      <Item value="IEquatable" priority="0" />
+      <Item value="DomainBase`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Db40Spike.Infrastructure.DB4OServer">
       <Item value="Connect`0" priority="0" />
@@ -116,18 +120,15 @@
       <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Views/d:EditPerson/f:Edit.aspx" caret="1586" fromTop="3" />
       <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Models/f:EditPersonViewModel.cs" caret="470" fromTop="9" />
       <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Models/f:CreatePersonViewModel.cs" caret="280" fromTop="10" />
-      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Views/d:DisplayAllPeople/f:Index.aspx" caret="549" fromTop="14" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Views/d:DisplayAllPeople/f:Index.aspx" caret="760" fromTop="14" />
       <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:EditPersonController.cs" caret="1997" fromTop="18" />
       <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IEntity.cs" caret="113" fromTop="8" />
       <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IRepository.cs" caret="262" fromTop="10" />
       <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IUnitOfWorkFactory.cs" caret="73" fromTop="3" />
       <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IUnitOfWork.cs" caret="102" fromTop="5" />
-      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:BootStrapper.cs" caret="310" fromTop="12" />
       <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IObjectContainerFactory.cs" caret="154" fromTop="7" />
       <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OUnitOfWork.cs" caret="260" fromTop="11" />
       <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Name.cs" caret="429" fromTop="14" />
-      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Person.cs" caret="487" fromTop="19" />
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4ORepository.cs" caret="400" fromTop="7" />
       <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OSession.cs" caret="131" fromTop="4" />
       <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IDb4OSession.cs" caret="124" fromTop="4" />
       <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OUnitOfWorkFactory.cs" caret="430" fromTop="16" />
@@ -137,19 +138,16 @@
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_DB4OSession_is_disposed.cs" caret="1270" fromTop="33" />
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_Db4OUnitOfWork_is_disposed.cs" caret="891" fromTop="18" />
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="797" fromTop="25" />
-      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="877" fromTop="17" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="899" fromTop="20" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Person.cs" caret="221" fromTop="8" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:StructureMapControllerFactory.cs" caret="408" fromTop="13" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:Global.asax.cs" caret="612" fromTop="17" />
+      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4ORepository.cs" caret="527" fromTop="17" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:DomainBase.cs" caret="794" fromTop="28" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:BootStrapper.cs" caret="707" fromTop="23" />
     </RecentFiles>
     <RecentEdits>
-      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="299" fromTop="9" />
-      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="794" fromTop="24" />
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:ObjectContainerFactory.cs" caret="0" fromTop="0" />
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:IDb4OSession.cs" caret="0" fromTop="0" />
-      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IEntity.cs" caret="13" fromTop="0" />
-      <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4ORepository.cs" caret="47" fromTop="0" />
-      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:AddPersonController.cs" caret="1415" fromTop="20" />
-      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/d:Controllers/f:AddPersonController.cs" caret="128" fromTop="0" />
       <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:IUnitOfWork.cs" caret="99" fromTop="4" />
-      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:BootStrapper.cs" caret="650" fromTop="23" />
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="618" fromTop="19" />
       <File id="B2A66B1B-1D5B-4E6E-8D4D-32BD48531241/f:Db4OUnitOfWork.cs" caret="411" fromTop="17" />
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_a_Db4OUnitOfWork_is_disposed.cs" caret="496" fromTop="15" />
@@ -169,7 +167,16 @@
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="650" fromTop="16" />
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="730" fromTop="21" />
       <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Infrastructure_Specs/f:when_creating_a_DB4OSession.cs" caret="470" fromTop="6" />
-      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="896" fromTop="19" />
+      <File id="73320B29-FB5A-47EE-8B33-75E87584BEE3/d:Controller_Specs/f:when_adding_a_new_person.cs" caret="899" fromTop="20" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:DomainBase.cs" caret="84" fromTop="6" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:DomainBase.cs" caret="144" fromTop="10" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:DomainBase.cs" caret="782" fromTop="28" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Person.cs" caret="498" fromTop="19" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Person.cs" caret="214" fromTop="8" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:Person.cs" caret="84" fromTop="1" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:Global.asax.cs" caret="612" fromTop="17" />
+      <File id="A7F79C03-8BE8-4159-8BE4-D09E06B5A55C/f:BootStrapper.cs" caret="707" fromTop="23" />
+      <File id="9470AFC5-2135-46D6-8D26-AE801389035A/f:DomainBase.cs" caret="13" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
